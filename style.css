@@ -157,28 +157,26 @@ body {
 
   .container-stars {
     grid-area: stars;
-    gap: .5rem;
+    gap: 0.5rem;
     margin-top: 10rem;
-
   }
   .container-stars-box {
     display: flex;
     flex-direction: row;
     padding: 0;
-
   }
-.margin-1 {
-  margin-right: 9rem;
-  margin-left: -9rem;
-}
-.margin-2 {
-  margin-right: 7rem;
-  margin-left: -7rem ;
-}
-.margin-3 {
-  margin-right: 5rem;
-  margin-left: -5rem
-}
+  .margin-1 {
+    margin-right: 9rem;
+    margin-left: -9rem;
+  }
+  .margin-2 {
+    margin-right: 7rem;
+    margin-left: -7rem;
+  }
+  .margin-3 {
+    margin-right: 5rem;
+    margin-left: -5rem;
+  }
   .stars {
     padding: 1rem;
   }
@@ -190,14 +188,12 @@ body {
   }
   .container-reviews-review:first-child {
     margin-bottom: 5rem;
-
   }
   .container-reviews-review:nth-child(2) {
     margin-top: 2rem;
     margin-bottom: 3rem;
   }
-  .container-reviews-review:last-child{
-    margin-top: 4rem ;
-
-}
+  .container-reviews-review:last-child {
+    margin-top: 4rem;
+  }
 }
